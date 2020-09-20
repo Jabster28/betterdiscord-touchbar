@@ -63,7 +63,7 @@ class touchbar {
 
 
     onSwitch(){
-            let guildname = "Guild Name"
+            let guildname = "Direct Messages"
             let channelname = "Channel Name"
             if(BdApi.findModuleByProps("getGuild").getGuild(BdApi.findModuleByProps("getLastSelectedGuildId").getGuildId())){
                 guildname = BdApi.findModuleByProps("getGuild").getGuild(BdApi.findModuleByProps("getLastSelectedGuildId").getGuildId()).name
